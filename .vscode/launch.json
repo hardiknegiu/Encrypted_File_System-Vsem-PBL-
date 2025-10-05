@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Encrypted FS",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/encrypted_fs.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "console": "externalTerminal",
+      "preLaunchTask": "Build Encrypted FS"
+    }
+  ]
+}
